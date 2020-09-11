@@ -1,5 +1,9 @@
 "# Rbac.Auth.RemoteApi" 
 
+   You can get this package by Nuget  
+   
+   Install-Package Rbac.Auth.RemoteApi 
+
    if a MVC controller is run at http://localhost:5000, and provide a POST API by Url http://localhost:5000/Identity/Permission/GetUser
    
    then we can create the DemoWrapper class.
@@ -41,7 +45,7 @@
     }
 	
 	
-	In our funtion can call the remote api by
+In our funtion can call the remote api by
 	
 	try
 	{
